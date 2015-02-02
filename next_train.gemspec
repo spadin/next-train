@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "next_train"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.authors       = ["Sandro Padin"]
   spec.email         = ["sandropadin@gmail.com"]
   spec.summary       = %q{Find out when the next CTA train arrives.}
   spec.description   = %q{Find out when the next CTA train arrives.}
-  spec.homepage      = "https://github.com/spadin/next-train"
+  spec.homepage      = "https://github.com/spadin/next_train"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
